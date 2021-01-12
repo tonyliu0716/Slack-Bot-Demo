@@ -1,0 +1,17 @@
+{
+  "name": "slack-with-rtm",
+  "version": "0.0.0",
+  "description": "Slack bot",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Tao",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.5",
+    "@slack/web-api": "^5.15.0",
+    "esm": "^3.2.25"
+  }
+}
